@@ -17,7 +17,7 @@ public class PlayerControl : MonoBehaviour
     [Header("Ignore")]
     public bool controlDisabled = true; //probably coulda named it better but this is for switching between the astral and over world
     public bool astralWorld = false;
-    public bool lockCursor = true;
+    //public bool lockCursor = true;
 
     [Space(10)]
 
@@ -35,9 +35,9 @@ public class PlayerControl : MonoBehaviour
 
     [Header("Firing Stats")]
     public GameObject projectilePrefab;
-    public Transform firePoint;
+    public Transform firePoint; //where projectiles are born
     public float fireRate = 1f; //interval between shots.
-    public float fireForce = 6f; //heh
+    public float fireForce = 6f; //strength of projectile launch
 
     // Private Variables
     private float baseMoveSpeed;
@@ -61,8 +61,8 @@ public class PlayerControl : MonoBehaviour
         respawn = GetComponent<RespawnScript>();
         if (controlDisabled) { DisableControls(); }
         else { EnableControls(); }
-        Cursor.visible = lockCursor;
-        Cursor.lockState = lockCursor ? CursorLockMode.Locked : CursorLockMode.None;
+        //Cursor.visible = lockCursor;
+        //Cursor.lockState = lockCursor ? CursorLockMode.Locked : CursorLockMode.None;
 
         input.Gameplay.Movement.performed += ctx => //if movement input is detected
         {
@@ -93,9 +93,9 @@ public class PlayerControl : MonoBehaviour
         input.Gameplay.Pause.performed += ctx => //if pause input is detected 
         {
             //open pause menu, lock/unlock mouse, probably swap action map here too
-            lockCursor = !lockCursor;
-            Cursor.visible = lockCursor;
-            Cursor.lockState = lockCursor ? CursorLockMode.Locked : CursorLockMode.None;
+            //lockCursor = !lockCursor;
+            //Cursor.visible = lockCursor;
+           // Cursor.lockState = lockCursor ? CursorLockMode.Locked : CursorLockMode.None;
 
             ui.pauseGame();
             ToggleControls();
@@ -146,27 +146,26 @@ public class PlayerControl : MonoBehaviour
 
     void Fire() // function for actively shooting
     {
-        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-        projectile.GetComponent<Rigidbody>().AddForce(firePoint.up * fireForce, ForceMode.Impulse);
+        if (shootAble)
+        {
+            GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+            projectile.GetComponent<Rigidbody>().AddForce(firePoint.up * fireForce, ForceMode.Impulse);
+            StartCoroutine(shooting());
+        }
     }
 
     public void OnShoot(InputAction.CallbackContext context)
-    {   // function for shooting
-        //Debug.Log("shooting input");
-        
-        if (shootAble)
+    {
+        // function for shooting
+        if (context.started) //shoot button pressed
         {
-            if (context.started) //shoot button pressed
-            {
-                Debug.Log("shooting");
-                InvokeRepeating("Fire", 0, fireRate); //repeats the fire function
-
-            }
-            if (context.canceled) //shoot button released
-            {
-                Debug.Log("stopped shooting");
-                CancelInvoke("Fire");
-            }
+            //Debug.Log("shooting");
+            InvokeRepeating("Fire", 0, fireRate - 0.1f); //repeats the fire function
+        }
+        if (context.canceled) //shoot button released
+        {
+            //Debug.Log("stopped shooting");
+            CancelInvoke("Fire");
         }
     }
 
@@ -176,7 +175,7 @@ public class PlayerControl : MonoBehaviour
         {
             //Debug.Log("ability");
             abilityAble = false;
-            StartCoroutine(ability(abilityCDTime));
+            StartCoroutine(ability());
         }
     }
 
@@ -188,6 +187,21 @@ public class PlayerControl : MonoBehaviour
             dashAble = false;
             StartCoroutine(dash());
         }
+    }
+
+    IEnumerator shooting()
+    {
+        shootAble = false;
+        yield return new WaitForSeconds(fireRate);
+        shootAble = true;
+    }
+
+    IEnumerator ability()
+    {
+        // do ability function here 
+        stats.UseMana(abilityCost);
+        yield return new WaitForSeconds(abilityCDTime);
+        abilityAble = true;
     }
 
     // coroutines for dash and ability cooldowns
@@ -208,14 +222,6 @@ public class PlayerControl : MonoBehaviour
         yield return new WaitForSeconds(dashCDTime);
         dashAble = true;
         //Debug.Log("dash is up");
-    }
-
-    IEnumerator ability(int time)
-    {
-        // do ability function here 
-        stats.UseMana(abilityCost);
-        yield return new WaitForSeconds(time);
-        abilityAble = true;
     }
 
     void OnEnable()
