@@ -144,7 +144,7 @@ public class PlayerControl : MonoBehaviour
         if (transform.position.y <= -5) { respawn.Respawn(); }
     }
 
-    void Fire() // function for actively shooting
+    void Fire() // function for actively shooting, spawns a projectile and starts coroutine to simulate fire rate
     {
         if (shootAble)
         {
@@ -156,7 +156,7 @@ public class PlayerControl : MonoBehaviour
 
     public void OnShoot(InputAction.CallbackContext context)
     {
-        // function for shooting
+        // function for shooting input
         if (context.started) //shoot button pressed
         {
             //Debug.Log("shooting");
@@ -189,6 +189,7 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
+    // coroutines for dash and ability cooldowns, as well as fire rate
     IEnumerator shooting()
     {
         shootAble = false;
@@ -203,8 +204,7 @@ public class PlayerControl : MonoBehaviour
         yield return new WaitForSeconds(abilityCDTime);
         abilityAble = true;
     }
-
-    // coroutines for dash and ability cooldowns
+    
     IEnumerator dash()
     {
         float startTime = Time.time;

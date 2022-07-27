@@ -44,21 +44,21 @@ public class WorldSwap : MonoBehaviour
         z = tpSpot.transform.position.z;
         tp.Teleport(x,z);
         
-        //camera // prolly gonna get scrapped
-        /*if (!controls.controlDisabled)
+        // perspective changes
+        if (!controls.controlDisabled)
         {
-            player.transform.eulerAngles = new Vector3(0, 0, 0);
-            cam.transform.eulerAngles = new Vector3(45, 0, 0);
-            camScript.horizontalOffset = -5;
-            camScript.verticalOffset = 5;
+            player.transform.eulerAngles = new Vector3(45, 0, 0);
+            cam.transform.eulerAngles = new Vector3(40, 0, 0);
+            camScript.horizontalOffset = -10;
+            camScript.verticalOffset = -1;
         }
         else
         {
-            player.transform.eulerAngles = new Vector3(90, 0, 0);
-            cam.transform.eulerAngles = new Vector3(90, 0, 0);
-            camScript.horizontalOffset = -10;
-            camScript.verticalOffset = 0;
-        }*/
+            player.transform.eulerAngles = new Vector3(15, 0, 0);
+            cam.transform.eulerAngles = new Vector3(33, 0, 0);
+            camScript.verticalOffset = 3;
+            camScript.horizontalOffset = -8;
+        }
     }
 
 }

@@ -10,9 +10,11 @@ public class MouseControl : MonoBehaviour
     [SerializeField] Camera mainCamera;
     [SerializeField] LayerMask layerMask;
 
-    // target is where the player will be looking
-    public float rotateTime;
+    // target is where the player will be looking/shooting, rotation point is the object that will be rotated 
+    // target isnt really necessary, but it gives an idea of where the cursor is in the world
+    public float rotateSpeed;
     public GameObject target;
+    public GameObject rotationPoint;
     Vector2 mousePos;
 
     void Awake()
@@ -33,7 +35,7 @@ public class MouseControl : MonoBehaviour
             targetRotation.x = 0;
             targetRotation.z = 0;
 
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotateTime * Time.deltaTime);
+            rotationPoint.transform.rotation = Quaternion.Slerp(rotationPoint.transform.rotation, targetRotation, rotateSpeed * Time.deltaTime);
         }
     }
 }
