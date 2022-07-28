@@ -50,6 +50,8 @@ public class UIFunctions : MonoBehaviour
     public void RestartGame()
     {
         //restarts the level. respawn enemies, reset spawn point, level assets, controls, etc 
+        Time.timeScale = 1f;
+        deathScreen.SetActive(false);
     }
 
     public void exitGame()

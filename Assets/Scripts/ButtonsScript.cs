@@ -7,14 +7,11 @@ public class ButtonsScript : MonoBehaviour
     //script for buttons, levers, and the like
     public bool active;
     public bool toggleable;
-    //public float speed = 1f;
-    //public float yInitial;
-    //public float yFinal;
+    public float displacement;
+    public GameObject obstacle;
+
     bool able = false;
 
-    //public GameObject obstacle;
-    public Collider wallCollider;
-    
     GameObject player;
     PlayerControl playerScript;
     
@@ -46,26 +43,34 @@ public class ButtonsScript : MonoBehaviour
         if (!active) 
         {
             active = true;
-            wallCollider.enabled = !wallCollider.enabled;
-
-            // need to add an animation here
-
-            /*while (obstacle.transform.position.y > yFinal) //moves object down if button/lever was flipped on
-            {
-                obstacle.transform.Translate(Vector3.down * Time.deltaTime, Space.World);
-            }*/
+            //wallCollider.enabled = !wallCollider.enabled;
+            MoveObject();
         }
         else if(active && toggleable) 
         { 
             active = false;
-            wallCollider.enabled = !wallCollider.enabled;
+            //wallCollider.enabled = !wallCollider.enabled;
+            MoveObject();
+        }
+    }
 
-            // need animation here too
-
-            /*while (obstacle.transform.position.y < yInitial) //moves object back up if button/lever was flipped off
+    void MoveObject()
+    {
+        if (!active)
+        {
+            float y = obstacle.transform.position.y + displacement;
+            while (obstacle.transform.position.y < y) //moves object back up if button/lever was flipped off
             {
                 obstacle.transform.Translate(Vector3.up * Time.deltaTime, Space.World);
-            }*/
+            }
+        }
+        else
+        {
+            float y = obstacle.transform.position.y - displacement;
+            while (obstacle.transform.position.y > y) //moves object down if button/lever was flipped on
+            {
+                obstacle.transform.Translate(Vector3.down * Time.deltaTime, Space.World);
+            }
         }
     }
 }

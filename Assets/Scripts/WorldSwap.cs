@@ -47,10 +47,10 @@ public class WorldSwap : MonoBehaviour
         // perspective changes
         if (!controls.controlDisabled)
         {
-            player.transform.eulerAngles = new Vector3(45, 0, 0);
-            cam.transform.eulerAngles = new Vector3(40, 0, 0);
-            camScript.horizontalOffset = -10;
-            camScript.verticalOffset = -1;
+            player.transform.eulerAngles = new Vector3(40, 0, 0);
+            cam.transform.eulerAngles = new Vector3(70, 0, 0);
+            camScript.horizontalOffset = -8;
+            camScript.verticalOffset = 4;
         }
         else
         {

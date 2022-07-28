@@ -39,6 +39,12 @@ public class PlayerControl : MonoBehaviour
     public float fireRate = 1f; //interval between shots.
     public float fireForce = 6f; //strength of projectile launch
 
+    [Space(10)]
+
+    [Header("Ability Stats")]
+    public GameObject grenadePrefab;
+    public float throwForce = 6f;
+
     // Private Variables
     private float baseMoveSpeed;
     private Rigidbody rb;
@@ -82,7 +88,7 @@ public class PlayerControl : MonoBehaviour
 
         input.Gameplay.Ability.performed += ctx => //if ability input is detected
         {
-            if (stats.currentMana >= abilityCost ) { OnAbility(ctx); }
+            OnAbility(ctx); 
         };
         
         input.Gameplay.Dash.performed += ctx => //if dash input is detected
@@ -104,16 +110,16 @@ public class PlayerControl : MonoBehaviour
 
     public void ToggleControls()
     {
-        controlDisabled = !controlDisabled;
-
-        if (controlDisabled)
+        if (ui.gamePaused)
         {
-            if (ui.gamePaused) { dashAble = false; }
+            controlDisabled = true;
+            dashAble = false;
             shootAble = false;
             abilityAble = false;
         }
         else
         {
+            controlDisabled = false;
             dashAble = true;
             shootAble = true;
             abilityAble = true;
@@ -173,7 +179,10 @@ public class PlayerControl : MonoBehaviour
     {   // function for using ability
         if (abilityAble)
         {
-            //Debug.Log("ability");
+            //Debug.Log("ability used");
+            GameObject grenade = Instantiate(grenadePrefab, firePoint.position, firePoint.rotation);
+            grenade.GetComponent<Rigidbody>().AddForce(firePoint.up * throwForce, ForceMode.Impulse);
+            
             abilityAble = false;
             StartCoroutine(ability());
         }
@@ -183,7 +192,7 @@ public class PlayerControl : MonoBehaviour
     {   // function for using dash
         if (dashAble) 
         { 
-            //Debug.Log("dash is on cooldown");
+            //Debug.Log("dashed");
             dashAble = false;
             StartCoroutine(dash());
         }
@@ -200,7 +209,6 @@ public class PlayerControl : MonoBehaviour
     IEnumerator ability()
     {
         // do ability function here 
-        stats.UseMana(abilityCost);
         yield return new WaitForSeconds(abilityCDTime);
         abilityAble = true;
     }

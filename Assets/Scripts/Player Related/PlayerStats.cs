@@ -7,13 +7,8 @@ public class PlayerStats : MonoBehaviour
 {
     //variables for player stats, can do levels and all that if we have another year lmao
     public int maxHealth = 100;
-    public int maxMana = 100;
-
     public int currentHealth;
-    public int currentMana;
-
-    public Slider healthBar;
-    public Slider manaBar;
+    public Slider healthBar; 
 
     //other variables
     GameObject player;
@@ -23,7 +18,6 @@ public class PlayerStats : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-        currentMana = maxMana;
 
         player = GameObject.Find("Player");
         uiScript = player.GetComponent<UIFunctions>();
@@ -43,24 +37,10 @@ public class PlayerStats : MonoBehaviour
         healthBar.value = currentHealth;
     }
 
-    public void TakeHeal(int health)
+    public void Heal(int health)
     {
         if(currentHealth + health > maxHealth) { currentHealth = maxHealth; }
         else { currentHealth += health; }
         healthBar.value = currentHealth;
-    }
-
-    //functions for mana
-    public void UseMana(int mana)
-    {
-        if(currentMana - mana >= 0) { currentMana-= mana; }
-        manaBar.value = currentMana;
-    }
-
-    public void GainMana(int mana)
-    {
-        if (currentMana + mana > maxMana) { currentMana = maxMana; }
-        else { currentMana += mana; }
-        manaBar.value = currentMana;
     }
 }
