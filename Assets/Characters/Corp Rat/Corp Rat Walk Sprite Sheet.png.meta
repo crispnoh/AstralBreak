@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: 284be323159ef8446b4dbc53d2a357fc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1620
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5320
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d277aa2375a6ffe43b44ed50db663b84
+      internalID: 365967628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 5320
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a066b4ee1f0df48419815c3d1c93a195
+      internalID: 876626895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 5320
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5528b8bd5d7a14bbfca702e1c124ed
+      internalID: 267753731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 7068
+        y: 5320
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feaf11f33f746b4e8ffb898438a78d8
+      internalID: 236098197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 9424
+        y: 5320
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c8d8a20b9f8874db0cd8a6c562e8ab
+      internalID: 1347018862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 11780
+        y: 5320
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6744da69fcf3ca04caff4bc90f20427f
+      internalID: -256522643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2660
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681863cbe52d6d44e86575377714095f
+      internalID: -2097349071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 2660
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345d4d9c4deaafd40ad02f1c34780e22
+      internalID: -1751548792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 2660
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf7ac6c642583a468756ffcbeba68e9
+      internalID: 2078874200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 7068
+        y: 2660
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f39367d11876346aeaea98dc8ffd24
+      internalID: -963218917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 9424
+        y: 2660
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e57e043c745c346949a23359707abc
+      internalID: 610356182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 11780
+        y: 2660
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d5d716201ba8a40b6c780778b21384
+      internalID: 1540642122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c04ae6415f11684688f4abda300901f
+      internalID: -1253774385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2356
+        y: 0
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22b5702694c9f94982c08e94ce25a0b
+      internalID: 1890008939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4712
+        y: 0
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a577c265d256ed94a8a3029f2984858a
+      internalID: 496916343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 7068
+        y: 0
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7693c53248fad784ab7b82f5946f681e
+      internalID: -172523844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 9424
+        y: 0
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4d4fda580da4f498261d81e1acdffc
+      internalID: 840157942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Walk Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 11780
+        y: 0
+        width: 2356
+        height: 2660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6207dcfa620ed4f816942570f4444b
+      internalID: -1063899992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1d883f30684065949b483a06f88ce8d7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Corp Rat Walk Sprite Sheet_5: -256522643
+      Corp Rat Walk Sprite Sheet_13: 1890008939
+      Corp Rat Walk Sprite Sheet_14: 496916343
+      Corp Rat Walk Sprite Sheet_6: -2097349071
+      Corp Rat Walk Sprite Sheet_2: 267753731
+      Corp Rat Walk Sprite Sheet_3: 236098197
+      Corp Rat Walk Sprite Sheet_7: -1751548792
+      Corp Rat Walk Sprite Sheet_8: 2078874200
+      Corp Rat Walk Sprite Sheet_0: 365967628
+      Corp Rat Walk Sprite Sheet_17: -1063899992
+      Corp Rat Walk Sprite Sheet_1: 876626895
+      Corp Rat Walk Sprite Sheet_4: 1347018862
+      Corp Rat Walk Sprite Sheet_12: -1253774385
+      Corp Rat Walk Sprite Sheet_9: -963218917
+      Corp Rat Walk Sprite Sheet_15: -172523844
+      Corp Rat Walk Sprite Sheet_16: 840157942
+      Corp Rat Walk Sprite Sheet_11: 1540642122
+      Corp Rat Walk Sprite Sheet_10: 610356182
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

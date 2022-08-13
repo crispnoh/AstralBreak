@@ -10,9 +10,11 @@ public class PlayerControl : MonoBehaviour
     //and idk how to fix it 
 
     public MainControls input;
+    public Animator anim;
     PlayerStats stats;
     UIFunctions ui;
     RespawnScript respawn;
+    MouseControl mouse;
 
     [Header("Ignore")]
     public bool controlDisabled = true; //probably coulda named it better but this is for switching between the astral and over world
@@ -48,6 +50,8 @@ public class PlayerControl : MonoBehaviour
     // Private Variables
     private float baseMoveSpeed;
     private Rigidbody rb;
+    private Vector2 mousev2;
+    private Vector2 mousev2Norm;
 
     // bool for using ability/dash 
     private bool dashAble = true;
@@ -59,26 +63,41 @@ public class PlayerControl : MonoBehaviour
     //mainly detecting inputs and acting on them
     void Awake()
     {
-        baseMoveSpeed = moveSpeed;
         input = new MainControls();
+
         stats = GetComponent<PlayerStats>();
         ui = GetComponent<UIFunctions>();
         rb = GetComponent<Rigidbody>();
         respawn = GetComponent<RespawnScript>();
-        if (controlDisabled) { DisableControls(); }
-        else { EnableControls(); }
+        mouse = GetComponent<MouseControl>();
+        baseMoveSpeed = moveSpeed;
+
         //Cursor.visible = lockCursor;
         //Cursor.lockState = lockCursor ? CursorLockMode.Locked : CursorLockMode.None;
+
+        input.Gameplay.Aim.performed += ctx =>
+        {
+            mousev2 = ctx.ReadValue<Vector2>();
+            //mousev2Norm = mousev2.normalized;
+            //Debug.Log(mousev2Norm);
+            //anim.SetFloat("aimY", mousev2Norm.x);
+            //anim.SetFloat("aimY", mousev2Norm.y);
+            mouse.MouseInput(mousev2); //mouse input
+        };
 
         input.Gameplay.Movement.performed += ctx => //if movement input is detected
         {
             //Debug.Log(ctx.ReadValueAsObject());
+            anim.SetBool("isWalking", true);
             movementInput = ctx.ReadValue<Vector2>();
+            anim.SetFloat("dirX", movementInput.x);
+            anim.SetFloat("dirY", movementInput.y);
         };
         input.Gameplay.Movement.canceled += ctx => //to stop moving
         {
             //Debug.Log(ctx.ReadValueAsObject());
             movementInput = Vector2.zero;
+            anim.SetBool("isWalking", false);
         };
 
         input.Gameplay.Shoot.performed += ctx => //if shooting input is detected
@@ -101,37 +120,36 @@ public class PlayerControl : MonoBehaviour
             //open pause menu, lock/unlock mouse, probably swap action map here too
             //lockCursor = !lockCursor;
             //Cursor.visible = lockCursor;
-           // Cursor.lockState = lockCursor ? CursorLockMode.Locked : CursorLockMode.None;
+            // Cursor.lockState = lockCursor ? CursorLockMode.Locked : CursorLockMode.None;
 
             ui.pauseGame();
             ToggleControls();
         };
     }
 
+    void Start()
+    {
+        Time.timeScale = 1f;
+        if (controlDisabled) { DisableControls(); }
+        else { EnableControls(); }
+    }
+
     public void ToggleControls()
     {
-        if (ui.gamePaused)
-        {
-            controlDisabled = true;
-            dashAble = false;
-            shootAble = false;
-            abilityAble = false;
-        }
-        else
-        {
-            controlDisabled = false;
-            dashAble = true;
-            shootAble = true;
-            abilityAble = true;
-        }
+        controlDisabled = !controlDisabled;
+        if (controlDisabled) { DisableControls(); }
+        else { EnableControls(); }
     }
 
     public void EnableControls()
     {
         controlDisabled = false;
         dashAble = true;
-        shootAble = true;
-        abilityAble = true;
+        if (astralWorld)
+        {
+            shootAble = true;
+            abilityAble = true;
+        }
     }
 
     public void DisableControls()
@@ -154,6 +172,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (shootAble)
         {
+            anim.SetBool("isAttacking", true);
             GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
             projectile.GetComponent<Rigidbody>().AddForce(firePoint.up * fireForce, ForceMode.Impulse);
             StartCoroutine(shooting());
@@ -171,6 +190,7 @@ public class PlayerControl : MonoBehaviour
         if (context.canceled) //shoot button released
         {
             //Debug.Log("stopped shooting");
+            anim.SetBool("isAttacking", false);
             CancelInvoke("Fire");
         }
     }
@@ -191,7 +211,7 @@ public class PlayerControl : MonoBehaviour
     public void OnDash(InputAction.CallbackContext context)
     {   // function for using dash
         if (dashAble) 
-        { 
+        {
             //Debug.Log("dashed");
             dashAble = false;
             StartCoroutine(dash());
@@ -219,11 +239,13 @@ public class PlayerControl : MonoBehaviour
 
         while (Time.time < startTime + dashTime)
         {
+	        anim.SetBool("isDashing", true);
             moveSpeed = dashSpeed;
             rb.useGravity = false;
 
             yield return null;
         }
+	    anim.SetBool("isDashing", false);
         moveSpeed = baseMoveSpeed;
         rb.useGravity = true;
 

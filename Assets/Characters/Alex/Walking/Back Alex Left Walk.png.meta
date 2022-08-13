@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: effd483f18c4dbf48a8629ec00e2dcda
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1620
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Back Alex Left Walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8172
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c2b8f36629129488e1685a3472e2a2
+      internalID: -524939279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_1
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 8172
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a69edeb8baf95547a6d9d2458cfec86
+      internalID: -356667922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_2
+      rect:
+        serializedVersion: 2
+        x: 3884
+        y: 8172
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9473a81edfd7fd8409d386d90c05b420
+      internalID: -1523018856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_3
+      rect:
+        serializedVersion: 2
+        x: 5826
+        y: 8172
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1b5b47918d2874db7554faca195a0f
+      internalID: -790859393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_4
+      rect:
+        serializedVersion: 2
+        x: 7768
+        y: 8172
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab73e1e291429a42ab989d64552b49c
+      internalID: 994135806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_5
+      rect:
+        serializedVersion: 2
+        x: 9710
+        y: 8172
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d238d3e3a166724cbe62c441567d7fb
+      internalID: 887757947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5448
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90ce826e03c8ce4e8189ed28136620b
+      internalID: -1290212228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_7
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 5448
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b10bccb6306d142a36c34bdbbfa4ec
+      internalID: 752190118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_8
+      rect:
+        serializedVersion: 2
+        x: 3884
+        y: 5448
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695bf8b55ac99314c95dd25c902bf4fe
+      internalID: -970807538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_9
+      rect:
+        serializedVersion: 2
+        x: 5826
+        y: 5448
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4c667425c3dea47af50b8dff54cf20
+      internalID: -1282111396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_10
+      rect:
+        serializedVersion: 2
+        x: 7768
+        y: 5448
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56c8cc041b87bb4287ce8251319888e
+      internalID: 772554878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_11
+      rect:
+        serializedVersion: 2
+        x: 9710
+        y: 5448
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b5d37f766d10f46a07d3a707355720
+      internalID: 1609650094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2724
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f89f409e716614c99973eb165a03e8
+      internalID: 2050158148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_13
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 2724
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9b7d65dc8ec074fb823507bd642677
+      internalID: -1147386559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_14
+      rect:
+        serializedVersion: 2
+        x: 3884
+        y: 2724
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01784f0f7c9c2e54cbb77b8c4f28f0df
+      internalID: -411911329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_15
+      rect:
+        serializedVersion: 2
+        x: 5826
+        y: 2724
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ff67d6d03581c468cf3be176ecba8d
+      internalID: -998726053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_16
+      rect:
+        serializedVersion: 2
+        x: 7768
+        y: 2724
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b383e7b212c4f41b0dbaa18f24cf2f
+      internalID: 113253006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_17
+      rect:
+        serializedVersion: 2
+        x: 9710
+        y: 2724
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3402ec55db544ed4db2bbd88f7566b36
+      internalID: 192566940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181d61455d677044aaf286f9a8817299
+      internalID: -1449264736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_19
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 0
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403a25b6136ae7740b6fe676701886a5
+      internalID: 1782525498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_20
+      rect:
+        serializedVersion: 2
+        x: 3884
+        y: 0
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84fbce96c6120c4483651bdc3ffd528
+      internalID: -495414585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_21
+      rect:
+        serializedVersion: 2
+        x: 5826
+        y: 0
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda691473d333f1478120cd141ab489c
+      internalID: 1381006218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_22
+      rect:
+        serializedVersion: 2
+        x: 7768
+        y: 0
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42267f3fe5bbe3a4ca20f6738f74d732
+      internalID: 1049516078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Back Alex Left Walk_23
+      rect:
+        serializedVersion: 2
+        x: 9710
+        y: 0
+        width: 1942
+        height: 2724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcfcbd90a5bbd4459f41cb0184aaed9
+      internalID: 695473568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f4c2f6a1e659e1f45bb23d9d50604541
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Back Alex Left Walk_14: -411911329
+      Back Alex Left Walk_12: 2050158148
+      Back Alex Left Walk_3: -790859393
+      Back Alex Left Walk_10: 772554878
+      Back Alex Left Walk_21: 1381006218
+      Back Alex Left Walk_6: -1290212228
+      Back Alex Left Walk_22: 1049516078
+      Back Alex Left Walk_13: -1147386559
+      Back Alex Left Walk_23: 695473568
+      Back Alex Left Walk_15: -998726053
+      Back Alex Left Walk_2: -1523018856
+      Back Alex Left Walk_9: -1282111396
+      Back Alex Left Walk_1: -356667922
+      Back Alex Left Walk_20: -495414585
+      Back Alex Left Walk_18: -1449264736
+      Back Alex Left Walk_16: 113253006
+      Back Alex Left Walk_0: -524939279
+      Back Alex Left Walk_7: 752190118
+      Back Alex Left Walk_17: 192566940
+      Back Alex Left Walk_19: 1782525498
+      Back Alex Left Walk_4: 994135806
+      Back Alex Left Walk_5: 887757947
+      Back Alex Left Walk_11: 1609650094
+      Back Alex Left Walk_8: -970807538
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

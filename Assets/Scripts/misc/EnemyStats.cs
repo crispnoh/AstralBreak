@@ -8,9 +8,12 @@ public class EnemyStats : MonoBehaviour
     public int currentHealth;
     public float animationTime;
 
+    Turret turretScript;
+
     void Start()
     {
         currentHealth = maxHealth;
+        turretScript = GetComponent<Turret>();
     }
 
     public void Damage(int dmg)
@@ -22,6 +25,8 @@ public class EnemyStats : MonoBehaviour
     void Death()
     {
         //play death animation
+        turretScript.anim.SetBool("isDead", true);
         Destroy(gameObject, animationTime);
+
     }
 }

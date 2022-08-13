@@ -10,7 +10,10 @@ public class Turret : MonoBehaviour
     public GameObject projectilePrefab;
 
     public Transform target;
+    //public Transform rotationPoint;
     public Transform firePoint;
+
+    public Animator anim;
 
     void Fire()
     {
@@ -22,22 +25,23 @@ public class Turret : MonoBehaviour
     {
         if (entity.tag == "Player")
         {
+            anim.SetBool("isAttacking", true);
             InvokeRepeating("Fire", 0.5f, fireRate);
         }
     }
 
     void OnTriggerStay(Collider entity)
     {
-        if (entity.tag == "Player") 
-        { 
+        if (entity.tag == "Player")
             transform.LookAt(target, Vector3.up);
-            
-        }
     }
 
     void OnTriggerExit(Collider entity)
     {
         if (entity.tag == "Player")
+        {
             CancelInvoke();
+            anim.SetBool("isAttacking", false);
+        }
     }
 }

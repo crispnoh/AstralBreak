@@ -10,9 +10,10 @@ Material:
   m_Name: Projectile
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ValidKeywords:
-  - _SPECULARHIGHLIGHTS_OFF
+  - _EMISSION
+  - _GLOSSYREFLECTIONS_OFF
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -64,18 +65,18 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Glossiness: 0.4
+    - _GlossyReflections: 0
+    - _Metallic: 0.57
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 0
+    - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.6603774, g: 0.1027946, b: 0.13007562, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.1855068, g: 0.13269848, b: 0.3962264, a: 1}
+    - _EmissionColor: {r: 0.106764026, g: 0.08744214, b: 0.14150941, a: 1}
   m_BuildTextureStacks: []

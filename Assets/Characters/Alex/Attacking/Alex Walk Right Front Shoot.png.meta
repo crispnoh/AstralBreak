@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 4cc3b1db2f16e1348941504198139cbd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1620
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8169
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1a932a7ccd0a04c831eff911938b14
+      internalID: 1683461367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_1
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 8169
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8653d78c6f1adc441900e5b000625899
+      internalID: 1274021963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_2
+      rect:
+        serializedVersion: 2
+        x: 3916
+        y: 8169
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84540bd147cfe9b43a8189b3add5ae39
+      internalID: -1327436007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_3
+      rect:
+        serializedVersion: 2
+        x: 5874
+        y: 8169
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81c51902c890ef4da3683fe5bc9da3a
+      internalID: -509963455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_4
+      rect:
+        serializedVersion: 2
+        x: 7832
+        y: 8169
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82ffa5f1cb7b3548bfaf0386924c849
+      internalID: -1402881620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_5
+      rect:
+        serializedVersion: 2
+        x: 9790
+        y: 8169
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90180b44927afaf4885481ac63b2edb7
+      internalID: -2010741150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5446
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be5623cc431d934a942980c1652843c
+      internalID: 2132264293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_7
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 5446
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69713b5166150c4bb9186089fc60170
+      internalID: -537402103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_8
+      rect:
+        serializedVersion: 2
+        x: 3916
+        y: 5446
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f7dfd2ffe9b4249b85d2b2e44e7133
+      internalID: 1076816717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_9
+      rect:
+        serializedVersion: 2
+        x: 5874
+        y: 5446
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1efb139f055f6894daf2931aa77a88a5
+      internalID: 511608926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_10
+      rect:
+        serializedVersion: 2
+        x: 7832
+        y: 5446
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65baf629c1be1604cb0c189eb8477c8a
+      internalID: -112100059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_11
+      rect:
+        serializedVersion: 2
+        x: 9790
+        y: 5446
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf81b3066d5d6c4aba1a9bf3345d128
+      internalID: -1782201949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2723
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf87df9947c86046a9fca8338df1f78
+      internalID: -959966433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_13
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 2723
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c028441f128974b86aa99427c895f4
+      internalID: 676132881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_14
+      rect:
+        serializedVersion: 2
+        x: 3916
+        y: 2723
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec70689c3eb42b448f4c7b9aaf1a583
+      internalID: -1594568589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_15
+      rect:
+        serializedVersion: 2
+        x: 5874
+        y: 2723
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170d177bc0498494594bd3f6a98a440d
+      internalID: 966311890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_16
+      rect:
+        serializedVersion: 2
+        x: 7832
+        y: 2723
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c52d38bdd569e74996decc4202d2949
+      internalID: -130087117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_17
+      rect:
+        serializedVersion: 2
+        x: 9790
+        y: 2723
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18817514cf8383b4d9bce023093173ad
+      internalID: -1696469968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a117c8d212edeb843b9e02e0a2107b08
+      internalID: 882366654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_19
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 0
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2efdce9fa2521f47bf40a560890dca6
+      internalID: 1958710976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_20
+      rect:
+        serializedVersion: 2
+        x: 3916
+        y: 0
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb1fd7f7a740f44b90119e81eaed571
+      internalID: -405055102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_21
+      rect:
+        serializedVersion: 2
+        x: 5874
+        y: 0
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0054862586d45aa4f871b6208929319e
+      internalID: -1140128765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_22
+      rect:
+        serializedVersion: 2
+        x: 7832
+        y: 0
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d7a9738d059b8488ca221c80075359
+      internalID: 1731412519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Walk Right Front Shoot_23
+      rect:
+        serializedVersion: 2
+        x: 9790
+        y: 0
+        width: 1958
+        height: 2723
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296893c03d6a0294a85b6a938581cf9f
+      internalID: -733791877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: be85cd676bcec62408116ceff693c0df
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Alex Walk Right Front Shoot_5: -2010741150
+      Alex Walk Right Front Shoot_11: -1782201949
+      Alex Walk Right Front Shoot_16: -130087117
+      Alex Walk Right Front Shoot_8: 1076816717
+      Alex Walk Right Front Shoot_22: 1731412519
+      Alex Walk Right Front Shoot_21: -1140128765
+      Alex Walk Right Front Shoot_2: -1327436007
+      Alex Walk Right Front Shoot_15: 966311890
+      Alex Walk Right Front Shoot_6: 2132264293
+      Alex Walk Right Front Shoot_10: -112100059
+      Alex Walk Right Front Shoot_18: 882366654
+      Alex Walk Right Front Shoot_20: -405055102
+      Alex Walk Right Front Shoot_13: 676132881
+      Alex Walk Right Front Shoot_0: 1683461367
+      Alex Walk Right Front Shoot_17: -1696469968
+      Alex Walk Right Front Shoot_7: -537402103
+      Alex Walk Right Front Shoot_12: -959966433
+      Alex Walk Right Front Shoot_3: -509963455
+      Alex Walk Right Front Shoot_1: 1274021963
+      Alex Walk Right Front Shoot_4: -1402881620
+      Alex Walk Right Front Shoot_9: 511608926
+      Alex Walk Right Front Shoot_14: -1594568589
+      Alex Walk Right Front Shoot_19: 1958710976
+      Alex Walk Right Front Shoot_23: -733791877
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

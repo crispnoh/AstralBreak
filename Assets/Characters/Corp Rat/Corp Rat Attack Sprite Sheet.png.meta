@@ -1,0 +1,518 @@
+fileFormatVersion: 2
+guid: b1547419189f569489cd8e8a65bb1fb6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1620
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 5474
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f510e82bee41ad46b2db890a80af943
+      internalID: -1377308165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 5216
+        y: 5474
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe444906380e7c4ab5bf41f7d30fa7c
+      internalID: -693871105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 7824
+        y: 5474
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9b1e8963c58684394e5e85584158ea
+      internalID: -946529258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 10432
+        y: 5474
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532c76866cc6c4c4aa82061ce5ee3ea0
+      internalID: 1275120371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 13040
+        y: 5474
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773e2ea913c2481428244fc91d551918
+      internalID: 1481183457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2737
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beacdedaaab1454487d2a0dd7242293
+      internalID: 1080568452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 2737
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef42b482c90d344cba53cdf3942b3a8
+      internalID: 955581036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 5216
+        y: 2737
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72714f7f18844ff4aa8d939c68ec81dc
+      internalID: 1396606398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 7824
+        y: 2737
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45432e2cf347a2468d3f0ea7de9bb8d
+      internalID: -1662472566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 10432
+        y: 2737
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1914eb3130b964983b4c149e7fc46f
+      internalID: 1253623458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 13040
+        y: 2737
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005f808cd0e71474bb883b05307f65a0
+      internalID: -1765883287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 0
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762dbc288079e3c47a50e6ef588161ee
+      internalID: -1999238923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 7824
+        y: 0
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb43a4cfd05294499d1fc5460c318f9
+      internalID: 682195775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 13040
+        y: 0
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01cd1c8b8f52dd45a7695f2ac44375e
+      internalID: -1102528423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5474
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5dd791ddd9d0244bb27e123e97033d6
+      internalID: 1982799400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35082eb183c0f81439d685cd25c400e8
+      internalID: 1780048014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 5216
+        y: 0
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6400ca41d0cf0449fd75d9c8dafd47
+      internalID: 299871053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corp Rat Attack Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 10432
+        y: 0
+        width: 2608
+        height: 2737
+      alignment: 9
+      pivot: {x: 0.66, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f1204515c76b041add9669fb69cf3c
+      internalID: 216723554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 94ce6f88746e3a84b8650cd59d9bb626
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Corp Rat Attack Sprite Sheet_5: 1481183457
+      Corp Rat Attack Sprite Sheet_4: 1275120371
+      Corp Rat Attack Sprite Sheet_8: 1396606398
+      Corp Rat Attack Sprite Sheet_12: 1780048014
+      Corp Rat Attack Sprite Sheet_15: 682195775
+      Corp Rat Attack Sprite Sheet_3: -946529258
+      Corp Rat Attack Sprite Sheet_0: 1982799400
+      Corp Rat Attack Sprite Sheet_1: -1377308165
+      Corp Rat Attack Sprite Sheet_16: 216723554
+      Corp Rat Attack Sprite Sheet_2: -693871105
+      Corp Rat Attack Sprite Sheet_10: 1253623458
+      Corp Rat Attack Sprite Sheet_14: 299871053
+      Corp Rat Attack Sprite Sheet_11: -1765883287
+      Corp Rat Attack Sprite Sheet_17: -1102528423
+      Corp Rat Attack Sprite Sheet_7: 955581036
+      Corp Rat Attack Sprite Sheet_13: -1999238923
+      Corp Rat Attack Sprite Sheet_9: -1662472566
+      Corp Rat Attack Sprite Sheet_6: 1080568452
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

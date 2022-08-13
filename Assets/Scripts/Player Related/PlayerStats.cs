@@ -8,6 +8,7 @@ public class PlayerStats : MonoBehaviour
     //variables for player stats, can do levels and all that if we have another year lmao
     public int maxHealth = 100;
     public int currentHealth;
+    public float animationTime;
     public Slider healthBar; 
 
     //other variables
@@ -31,7 +32,9 @@ public class PlayerStats : MonoBehaviour
         { 
             currentHealth = 0;
             playerControl.DisableControls();
-            uiScript.die();            
+            playerControl.anim.SetBool("isDead", true);
+            StartCoroutine(death());
+                        
         }
         else { currentHealth -= dmg; }
         healthBar.value = currentHealth;
@@ -42,5 +45,11 @@ public class PlayerStats : MonoBehaviour
         if(currentHealth + health > maxHealth) { currentHealth = maxHealth; }
         else { currentHealth += health; }
         healthBar.value = currentHealth;
+    }
+
+    IEnumerator death()
+    {
+        yield return new WaitForSeconds(animationTime);
+        uiScript.die();
     }
 }

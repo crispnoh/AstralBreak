@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class UIFunctions : MonoBehaviour
 {
+    PlayerControl playerScript;
+
     //Game objects
     GameObject pauseMenu;
     GameObject settingsMenu;
@@ -21,10 +23,12 @@ public class UIFunctions : MonoBehaviour
         settingsMenu.SetActive(false);
         pauseMenu.SetActive(false);
         deathScreen.SetActive(false);
+        playerScript = GetComponent<PlayerControl>();
     }
 
     public void die()
     {
+        playerScript.anim.SetBool("isDead", false);
         Time.timeScale = 0f;
         deathScreen.SetActive(true);
     }
@@ -51,7 +55,7 @@ public class UIFunctions : MonoBehaviour
     {
         //restarts the level. respawn enemies, reset spawn point, level assets, controls, etc 
         Time.timeScale = 1f;
-        deathScreen.SetActive(false);
+        //deathScreen.SetActive(false);
     }
 
     public void exitGame()

@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 4b8958e202e591146b615a9b526a87ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1620
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alex Dash_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6050ff41b0cbc354983cd1ce5e08c979
+      internalID: -417532915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_1
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4e0dbd16c36664c955c0d3a3e67368
+      internalID: -1960078684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_2
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dbb8436a5037d4686a3c6858d7f997
+      internalID: 2042016337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_3
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9dfe4dcc34b8d48962adf2458707e0
+      internalID: -1875500790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_4
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f310bca22ad11c49bc5df63568b27c2
+      internalID: 651250898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_5
+      rect:
+        serializedVersion: 2
+        x: 10280
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb94023e105103f41bf62b4098452839
+      internalID: -2139764405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0b436287f073e47a75cbfbc3afb909
+      internalID: 1286108838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_7
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520db453b73ef794ba8199ce357f4973
+      internalID: -530424970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_8
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3853d1fa6bbfba947ad9df6dd0c33fee
+      internalID: 1210750783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_9
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d08761f1f4bb14418cbf9dd632f1d83
+      internalID: -798774889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_10
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf3f09fbd8e135479dea4c8a52f0d73
+      internalID: -57856191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_11
+      rect:
+        serializedVersion: 2
+        x: 10280
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8037fde329e131142b5623dfec3e338b
+      internalID: -398686514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69a3c45ba4487b4caf6a0dc4a89f6d7
+      internalID: 406061409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_13
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da99775d5f9f4b4eb81cba439492f99
+      internalID: 191766976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_14
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf8330329e3c8b4eba53ea77712230e
+      internalID: 2133401075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_15
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75913ecdbdcdd344bb54f0a520b1cbef
+      internalID: -396512819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_16
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda428f1f8aafe04a9e7869e5670e866
+      internalID: -1901747033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_17
+      rect:
+        serializedVersion: 2
+        x: 10280
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3ae42521e7d674180abacb710cc77a
+      internalID: 756885076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab912bad446678a4f8aa582f49a509f1
+      internalID: 1691255145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_19
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738a128b0cb54834cb2935960326f5b5
+      internalID: -308217817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_20
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cadeeeaba5b674fa90dc3c17b3470e
+      internalID: 879061089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_21
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa49e4fdfc6469145b7039a6f3b82b71
+      internalID: 388379338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_22
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad9467b75173954aa1b2390be468a5e
+      internalID: -888177688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Dash_23
+      rect:
+        serializedVersion: 2
+        x: 10280
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f983837084cd748b61c91df074e2a5
+      internalID: 896600351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 282e771e005ced144ab7f7c9574db761
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Alex Dash_5: -2139764405
+      Alex Dash_15: -396512819
+      Alex Dash_23: 896600351
+      Alex Dash_2: 2042016337
+      Alex Dash_16: -1901747033
+      Alex Dash_7: -530424970
+      Alex Dash_0: -417532915
+      Alex Dash_19: -308217817
+      Alex Dash_10: -57856191
+      Alex Dash_3: -1875500790
+      Alex Dash_6: 1286108838
+      Alex Dash_22: -888177688
+      Alex Dash_8: 1210750783
+      Alex Dash_9: -798774889
+      Alex Dash_12: 406061409
+      Alex Dash_17: 756885076
+      Alex Dash_20: 879061089
+      Alex Dash_14: 2133401075
+      Alex Dash_1: -1960078684
+      Alex Dash_11: -398686514
+      Alex Dash_13: 191766976
+      Alex Dash_18: 1691255145
+      Alex Dash_21: 388379338
+      Alex Dash_4: 651250898
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 2a6807c7d2278184cb143a0105ba0c82
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1620
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7776
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434d4b50b707b904881ffd34fa49730d
+      internalID: 1648684464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_1
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 7776
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdef658715846204c9b09cfff38b2d77
+      internalID: -1573302819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_2
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 7776
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645985f98b21060439f445b97b9d48e2
+      internalID: 216232830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_3
+      rect:
+        serializedVersion: 2
+        x: 5523
+        y: 7776
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a0e6f3d5c975141b3fa3a5773e3a83
+      internalID: -701635476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_4
+      rect:
+        serializedVersion: 2
+        x: 7364
+        y: 7776
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9db987d2326cc044a840502c9750104
+      internalID: 322073062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_5
+      rect:
+        serializedVersion: 2
+        x: 9205
+        y: 7776
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c8b69fc860a424c996e93d694f94cf
+      internalID: 579965547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5184
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84219b95577205b4583be72c1c15ef5c
+      internalID: 1926558157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_7
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 5184
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5207fb54c39d424e8145fea8bb10e5e
+      internalID: -856183748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_8
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 5184
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300e901558b8a4d45a8c8c123dafa8bd
+      internalID: -2042185280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_9
+      rect:
+        serializedVersion: 2
+        x: 5523
+        y: 5184
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421c3dadb748cf04198a785fb89e7658
+      internalID: 1424202689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_10
+      rect:
+        serializedVersion: 2
+        x: 7364
+        y: 5184
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeed543329552b54893cf178295f35e0
+      internalID: -1897164134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_11
+      rect:
+        serializedVersion: 2
+        x: 9205
+        y: 5184
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc9dde0a0e85cf47b043be76f8ec784
+      internalID: -1334262464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2592
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6f646be670f33408ec43718aa9347c
+      internalID: 902772203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_13
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 2592
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f6135420155c949aafd6ad6d27f7e3
+      internalID: -1171562070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_14
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 2592
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dae049fe4d5fcd47b3cbb8f1edcd329
+      internalID: -322677156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_15
+      rect:
+        serializedVersion: 2
+        x: 5523
+        y: 2592
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76632ad0b471d004cb1c6e6213c2f999
+      internalID: 1908918317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_16
+      rect:
+        serializedVersion: 2
+        x: 7364
+        y: 2592
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c72ae1052ea7f64ca0e3b4f8c3e2408
+      internalID: 342316548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_17
+      rect:
+        serializedVersion: 2
+        x: 9205
+        y: 2592
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166f2cbdcb20bb641beeff946a307412
+      internalID: -1737743078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c61eae46dea48458f560cf489c0a4c
+      internalID: -1367292264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_19
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 0
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495efce538dc8a44c933631c889e0385
+      internalID: -1119176301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_20
+      rect:
+        serializedVersion: 2
+        x: 3682
+        y: 0
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd6727ce03776f40b8f6e70b963309b
+      internalID: -190118853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_21
+      rect:
+        serializedVersion: 2
+        x: 5523
+        y: 0
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0c03ca305dfbf41b6eaf7cb98f3c23
+      internalID: 1141300827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_22
+      rect:
+        serializedVersion: 2
+        x: 7364
+        y: 0
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f91135c5371b34eb18b90e421545df
+      internalID: -662058582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex Still Right Shoot_23
+      rect:
+        serializedVersion: 2
+        x: 9205
+        y: 0
+        width: 1841
+        height: 2592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907cc6c2c2c51294590e5200d7070a5d
+      internalID: -1527042899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f5563f7dbeee6174b8f0fa6d9c4b068f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Alex Still Right Shoot_8: -2042185280
+      Alex Still Right Shoot_3: -701635476
+      Alex Still Right Shoot_9: 1424202689
+      Alex Still Right Shoot_12: 902772203
+      Alex Still Right Shoot_16: 342316548
+      Alex Still Right Shoot_10: -1897164134
+      Alex Still Right Shoot_23: -1527042899
+      Alex Still Right Shoot_4: 322073062
+      Alex Still Right Shoot_17: -1737743078
+      Alex Still Right Shoot_20: -190118853
+      Alex Still Right Shoot_19: -1119176301
+      Alex Still Right Shoot_5: 579965547
+      Alex Still Right Shoot_6: 1926558157
+      Alex Still Right Shoot_11: -1334262464
+      Alex Still Right Shoot_22: -662058582
+      Alex Still Right Shoot_18: -1367292264
+      Alex Still Right Shoot_1: -1573302819
+      Alex Still Right Shoot_13: -1171562070
+      Alex Still Right Shoot_15: 1908918317
+      Alex Still Right Shoot_2: 216232830
+      Alex Still Right Shoot_0: 1648684464
+      Alex Still Right Shoot_14: -322677156
+      Alex Still Right Shoot_7: -856183748
+      Alex Still Right Shoot_21: 1141300827
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

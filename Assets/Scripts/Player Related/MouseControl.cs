@@ -17,9 +17,9 @@ public class MouseControl : MonoBehaviour
     public GameObject rotationPoint;
     Vector2 mousePos;
 
-    void Awake()
+    public void MouseInput(Vector2 input)
     {
-        GetComponent<PlayerControl>().input.Gameplay.Aim.performed += ctx => mousePos = ctx.ReadValue<Vector2>();
+        mousePos = input;
     }
 
     void FixedUpdate()

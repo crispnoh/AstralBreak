@@ -37,7 +37,8 @@ public class WorldSwap : MonoBehaviour
     public void SwapWorld() //changes controls, camera angle, tps player
     {
         //controls
-        controls.ToggleControls();
+        controls.astralWorld = !controls.astralWorld;
+        controls.ToggleControls();        
 
         //teleport
         x = tpSpot.transform.position.x;
