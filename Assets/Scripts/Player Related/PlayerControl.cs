@@ -254,12 +254,12 @@ public class PlayerControl : MonoBehaviour
         //Debug.Log("dash is up");
     }
 
-    void OnEnable()
+    public void OnEnable()
     {
         input.Gameplay.Enable();
     }
 
-    void OnDisable()
+    public void OnDisable()
     {
         input.Gameplay.Disable();
     }

@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: c621de47b83d4cb429e2fda52bc39c82
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1620
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AlexDashR_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff4ff516291db24994d7104ab412d7e
+      internalID: -1511232234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_1
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ac50fcb803cb94c9b0e447fea0a952
+      internalID: 2010040501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_2
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ee95f2dce9a99478b8cf10fbd6ddc5
+      internalID: -577132558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_3
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e756a6f6515de4e97f5012d501b58c
+      internalID: -1168011140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_4
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb0f91da3256d140933ead95533e5f1
+      internalID: 1603031543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_5
+      rect:
+        serializedVersion: 2
+        x: 10280
+        y: 8115
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f3cca08211aed44908f6a565fe2905
+      internalID: 1294779026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba5bcbfb75a31f40813a768e4f376f3
+      internalID: 831367828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_7
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6116f60b2e18606438fdd6accfc34f00
+      internalID: 1831845247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_8
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2999fdca7073aa0428e828011ffa273a
+      internalID: 2029211006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_9
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b2e80959f7a4b43ae7af05deb7ec07
+      internalID: -1204959119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_10
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefc86c35bc9ef841ba78a3cf73c67c8
+      internalID: 799061195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_11
+      rect:
+        serializedVersion: 2
+        x: 10280
+        y: 5410
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ee76fa69837b44783775c485b1b4f1
+      internalID: -538143587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2641d2b686c758944b1f8cedda1e3a1a
+      internalID: -161171989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_13
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ce512054a1a9a4fb46568bfd820038
+      internalID: -237563343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_14
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b95780527a1be448dc1208f020f8f5
+      internalID: -1292562707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_15
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3fd26b139f27546aaa4b2c9d8fdd4f
+      internalID: 529377999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_16
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b30fb497ea55404bbeb42ec82a06548
+      internalID: -377312508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_17
+      rect:
+        serializedVersion: 2
+        x: 10280
+        y: 2705
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274176f24148af54e9148d963ce0b5a8
+      internalID: -1162359493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2086e15d0b717b842ab0dc8cdd008ef7
+      internalID: 1609521373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_19
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0051d7ca66ff943a7786d2a730ed5c
+      internalID: -517814775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_20
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1ad15832e942e41990fafe9fc8798b
+      internalID: 1641110490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_21
+      rect:
+        serializedVersion: 2
+        x: 6168
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41559556c342bd44d997ede20d55d528
+      internalID: 1703061457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_22
+      rect:
+        serializedVersion: 2
+        x: 8224
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d010532d57b06f649a1ac50bad9b41bd
+      internalID: 940858651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AlexDashR_23
+      rect:
+        serializedVersion: 2
+        x: 10280
+        y: 0
+        width: 2056
+        height: 2705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629f24f90e3963244a1ce9d502d46140
+      internalID: 143083210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AlexDashR_4: 1603031543
+      AlexDashR_3: -1168011140
+      AlexDashR_14: -1292562707
+      AlexDashR_19: -517814775
+      AlexDashR_16: -377312508
+      AlexDashR_1: 2010040501
+      AlexDashR_7: 1831845247
+      AlexDashR_15: 529377999
+      AlexDashR_21: 1703061457
+      AlexDashR_12: -161171989
+      AlexDashR_0: -1511232234
+      AlexDashR_5: 1294779026
+      AlexDashR_18: 1609521373
+      AlexDashR_22: 940858651
+      AlexDashR_10: 799061195
+      AlexDashR_17: -1162359493
+      AlexDashR_9: -1204959119
+      AlexDashR_20: 1641110490
+      AlexDashR_8: 2029211006
+      AlexDashR_11: -538143587
+      AlexDashR_2: -577132558
+      AlexDashR_13: -237563343
+      AlexDashR_23: 143083210
+      AlexDashR_6: 831367828
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

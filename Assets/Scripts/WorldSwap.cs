@@ -10,6 +10,7 @@ public class WorldSwap : MonoBehaviour
     GameObject cam;
     GameObject player;
 
+    public GameObject filter;
     public GameObject tpSpot;
     float x;
     float z;
@@ -46,6 +47,8 @@ public class WorldSwap : MonoBehaviour
         tp.Teleport(x,z);
         
         // perspective changes
+        filter.SetActive(controls.astralWorld);
+
         if (!controls.controlDisabled)
         {
             player.transform.eulerAngles = new Vector3(40, 0, 0);

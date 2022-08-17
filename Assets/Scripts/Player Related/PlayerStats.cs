@@ -31,10 +31,9 @@ public class PlayerStats : MonoBehaviour
         if (currentHealth - dmg <= 0) 
         { 
             currentHealth = 0;
-            playerControl.DisableControls();
+            playerControl.OnDisable();
             playerControl.anim.SetBool("isDead", true);
             StartCoroutine(death());
-                        
         }
         else { currentHealth -= dmg; }
         healthBar.value = currentHealth;
@@ -51,5 +50,6 @@ public class PlayerStats : MonoBehaviour
     {
         yield return new WaitForSeconds(animationTime);
         uiScript.die();
+        playerControl.OnEnable();
     }
 }
